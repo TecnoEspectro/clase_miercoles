@@ -10,11 +10,11 @@
 
 :root{
     --color_text-primary: #309C13;
-    --color_text-secundary: #101E2C;
-    --color_text-tertiary: #155404;
-    --main_color-primary: #155404;
-    --main_color-secundary: #8ADA74;
-    --background-color: #FAFBFE;
+    --color_text-secundary: #75130f;
+    --color_text-tertiary: #ff1100;
+    --main_color-primary: #8d1c08;
+    --main_color-secundary: #5a5a5a;
+    --background-color: #272727;
     --lowText_font_size: 16px;
     --text_size_title: 40px;
     --text_title_card: 24px;
@@ -238,3 +238,45 @@ header{
 }
 
 /*End Estilos Generales Cards*/
+
+.container_message_2{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(230, 230, 230);
+
+}
+
+.cover2{
+    max-width: 1200px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.text__cover2{
+    width: 100%;
+    padding-right: 150px;
+}
+
+.text__cover2 h1{
+    font-size: 50px;
+    color: var(--color_text-secundary);
+}
+
+.text__cover2 p{
+    font-size: var(--text_paragraph);
+    margin-top: 40px;
+    color: var(--color_text-tertiary);
+}
+
+.image__cover2{
+    width: 100%;
+    display: flex;
+}
+
+.image__cover2 img{
+    width: 550px;
+    height: 550px;
+}
