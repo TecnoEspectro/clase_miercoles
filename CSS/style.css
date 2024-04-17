@@ -280,3 +280,71 @@ header{
     width: 550px;
     height: 550px;
 }
+
+.fa-solid{
+    margin-top: 5%;
+    align-items: center;
+    justify-content: center;
+}
+
+.box__card-primary_2{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://img.freepik.com/foto-gratis/esfera-azul-brillante-sostenida-mano-humana-generada-ia_188544-41033.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.box__card-primary_2:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+    border-radius: 5px;
+    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+.box__card-primary_3{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://forbes.es/wp-content/uploads/2022/11/tecnologia-cambio-futuro-humano.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.box__card-primary_3:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+    transform: 10px;
+}
+
+.box__card-primary_4{
+    max-width: 350px;
+    padding: 60px 40px;
+    border: 1px solid #e6e6e6;
+    border-radius: 20px;
+    margin: 14px;
+    transition: all 300ms;
+    background-image: url(https://us.123rf.com/450wm/stori/stori1801/stori180100017/92679797-terra-do-espa%C3%A7o-o-melhor-conceito-de-internet-de-neg%C3%B3cios-globais-a-partir-de-s%C3%A9ries-de-conceitos.jpg?ver=6);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: left;
+}
+
+.box__card-primary_4:hover{
+    border: 1px solid transparent;
+    box-shadow: var(--box_shadow-primary);
+    transform: 10px;
+}
+
