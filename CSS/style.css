@@ -305,7 +305,9 @@ header{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
     border-radius: 5px;
-    transition:cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    transform: 10px;
+    opacity: 0.5;
+    border-radius: 50%;
 }
 
 .box__card-primary_3{
@@ -326,6 +328,8 @@ header{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
     transform: 10px;
+    opacity: 0.5;
+    border-radius: 50%;
 }
 
 .box__card-primary_4{
@@ -346,5 +350,7 @@ header{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
     transform: 10px;
+    opacity: 0.5;
+    border-radius: 50%;
 }
 
