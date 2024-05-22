@@ -368,7 +368,7 @@ header{
 .box__card-primary_5:hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
-    transform: 10px;
+    transform:scale(1.2);
 }
 
 .card__primary2{
@@ -385,7 +385,7 @@ header{
     border-radius: 20px;
     margin: 14px;
     transition: all 300ms;
-    color: white;
+    color: black;
     text-align: left;
 }
 
@@ -393,7 +393,7 @@ header{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
     border-radius: 5px;
-    transform: 10px;
+    transform:scale(1.2);
 }
 
 .box__card-primary_7{
@@ -403,14 +403,14 @@ header{
     border-radius: 20px;
     margin: 14px;
     transition: all 300ms;
-    color: white;
+    color: black;
     text-align: left;
 }
 
 .box__card-primary_7:hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
-    transform: 10px;
+    transform:scale(1.2);
 }
 
 .box__card-primary_8{
@@ -420,12 +420,42 @@ header{
     border-radius: 20px;
     margin: 14px;
     transition: all 300ms;
-    color: white;
+    color: black;
     text-align: left;
 }
 
 .box__card-primary_8:hover{
     border: 1px solid transparent;
     box-shadow: var(--box_shadow-primary);
-    transform: 10px;
+    transform:scale(1.2);
+}
+
+.tarjeta_info{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.formu{
+    padding-left: 10px;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    width: 400px;
+}
+
+label{
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input, textarea{
+}
+
+textarea{
+    vertical-align: top;
 }
