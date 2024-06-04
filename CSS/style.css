@@ -453,9 +453,43 @@ label{
     text-align: right;
 }
 
-input, textarea{
+input{
+width: 190px;
+justify-content: space-around;
+border: solid var(--color_text-tertiary);
+border-bottom:solid var(--color_text-tertiary);
+border-top: none;
+border-left: none;
+border-right: none;
 }
+
+
 
 textarea{
     vertical-align: top;
+    width: 400px;
+    height: 100px;
+    border: solid var(--color_text-tertiary);
+border-bottom:solid var(--color_text-tertiary);
+border-top: none;
+border-left: none;
+border-right: none;
+}
+
+li{
+    list-style: none;
+}
+
+button{
+    background-color: var(--color_text-tertiary);
+    color: white;
+    border-radius: 5%;
+    border: solid var(--color_text-tertiary);
+}
+
+button:hover{
+    background-color: #309C13;
+    transform: scale(115%);
+    transition: 15ms;
+    border: solid var(--color_text-primary);
 }
