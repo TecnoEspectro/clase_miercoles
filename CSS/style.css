@@ -436,7 +436,8 @@ header{
     display: flex;
     margin: auto;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 5%;
 }
 
 .formu{
@@ -492,4 +493,53 @@ button:hover{
     transform: scale(115%);
     transition: 15ms;
     border: solid var(--color_text-primary);
+}
+
+.footerinfo{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoinfo{
+    width: 400px;
+    text-align: justify;
+}
+
+.home2{
+    width: 400px;
+    text-align: left;
+}
+
+.services2{
+    width: 400px;
+    text-align: left;
+}
+
+.links{
+    width: 400px;
+    text-align: left;
+}
+
+#mailfinal{
+    border: solid aliceblue;
+    background-color: aliceblue;
+    border-radius: 5%;
+}
+
+.copyrigth{
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 5%;
+    justify-content: space-between;
+    align-items: center;
+    border: solid gray;
+    border-bottom:none;
+    border-top: solid   gray;
+    border-left: none;
+    border-right: none;
 }
