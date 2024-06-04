@@ -481,19 +481,6 @@ li{
     list-style: none;
 }
 
-button{
-    background-color: var(--color_text-tertiary);
-    color: white;
-    border-radius: 5%;
-    border: solid var(--color_text-tertiary);
-}
-
-button:hover{
-    background-color: #309C13;
-    transform: scale(115%);
-    transition: 15ms;
-    border: solid var(--color_text-primary);
-}
 
 .footerinfo{
     display: flex;
@@ -501,27 +488,39 @@ button:hover{
     padding-right: 5%;
     padding-top: 5%;
     justify-content: space-between;
-    align-items: center;
+    align-items:baseline;
 }
 
 .logoinfo{
     width: 400px;
-    text-align: justify;
+    text-align: left;
+    padding-right: 5%;
+    vertical-align: top;
 }
 
 .home2{
-    width: 400px;
+    width: 300px;
     text-align: left;
+    vertical-align: top;
 }
 
 .services2{
-    width: 400px;
+    width: 200px;
     text-align: left;
+    vertical-align: top;
 }
 
 .links{
     width: 400px;
     text-align: left;
+    vertical-align: top;
+}
+#linksflex{
+    display: flex;
+    align-items: baseline;
+    justify-content:space-between;
+    vertical-align: top;
+    width: 300px;
 }
 
 #mailfinal{
