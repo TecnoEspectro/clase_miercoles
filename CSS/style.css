@@ -577,3 +577,7 @@ li {
     border-left: none;
     border-right: none;
 }
+
+#logo_general3{
+    rotate: 45deg;
+}
